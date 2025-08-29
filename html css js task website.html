@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../lesson 5/fontawesome-free-6.7.2-web/css/all.min.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=sunny" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=add" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=bedtime" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css" />
+<link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  <header>
+    <svg id="menuToggle" class="menu-toggle" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+      width="24px" fill="#1f1f1f">
+      <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+    </svg>
+    <h1>
+      <svg xmlns="http://www.w3.org/2000/svg" width="35" height="34">
+        <path
+          d="M34.5 16.894v10.731c0 3.506-2.869 6.375-6.375 6.375H17.5h-.85C7.725 33.575.5 26.138.5 17c0-9.35 7.65-17 17-17s17 7.544 17 16.894z"
+          fill="rgb(216 81 81)"></path>
+        <g fill-rule="rgb(216 81 81)">
+          <path
+            d="M17.5 13.258c-3.101 0-5.655 2.554-5.655 5.655s2.554 5.655 5.655 5.655 5.655-2.554 5.655-5.655-2.554-5.655-5.655-5.655zm-9.433 5.655c0-5.187 4.246-9.433 9.433-9.433s9.433 4.246 9.433 9.433a9.36 9.36 0 0 1-1.569 5.192l2.397 2.397a1.89 1.89 0 0 1 0 2.671 1.89 1.89 0 0 1-2.671 0l-2.397-2.397a9.36 9.36 0 0 1-5.192 1.569c-5.187 0-9.433-4.246-9.433-9.433z"
+            fill="" fill-opacity=".05"></path>
+          <g fill="white">
+            <path
+              d="M17.394 10.153c-3.723 0-6.741 3.018-6.741 6.741s3.018 6.741 6.741 6.741 6.741-3.018 6.741-6.741-3.018-6.741-6.741-6.741zM7.347 16.894A10.05 10.05 0 0 1 17.394 6.847 10.05 10.05 0 0 1 27.44 16.894 10.05 10.05 0 0 1 17.394 26.94 10.05 10.05 0 0 1 7.347 16.894z">
+            </path>
+            <path
+              d="M23.025 22.525c.645-.645 1.692-.645 2.337 0l3.188 3.188c.645.645.645 1.692 0 2.337s-1.692.645-2.337 0l-3.187-3.187c-.645-.646-.645-1.692 0-2.337z">
+            </path>
+          </g>
+        </g>
+        <path
+          d="M23.662 14.663c2.112 0 3.825-1.713 3.825-3.825s-1.713-3.825-3.825-3.825-3.825 1.713-3.825 3.825 1.713 3.825 3.825 3.825z"
+          fill="#fff"></path>
+        <path fill-rule="evenodd"
+          d="M23.663 8.429a2.41 2.41 0 0 0-2.408 2.408 2.41 2.41 0 0 0 2.408 2.408 2.41 2.41 0 0 0 2.408-2.408 2.41 2.41 0 0 0-2.408-2.408zm-5.242 2.408c0-2.895 2.347-5.242 5.242-5.242s5.242 2.347 5.242 5.242-2.347 5.242-5.242 5.242-5.242-2.347-5.242-5.242z"
+          fill="white"></path>
+      </svg>
+      Finder
+    </h1>
+    <ul id="navbar">
+      <svg id="closeMenu" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+        fill="#1f1f1f">
+        <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+      </svg>
+      <li>Home</li>
+      <li>Listings</li>
+      <li>Account</li>
+      <li>Pages</li>
+      <li>Docs</li>
+      <li>Components</li>
+    </ul>
+    <div class="rigth_header">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-regular fa-bell"></i>
+      <i class="fa-regular fa-user"></i>
+      <a id="themeToggle"><span class="material-symbols-outlined">bedtime</span></a>
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+        <path
+          d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z" />
+      </svg>
+      <button>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white">
+          <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z" />
+        </svg>
+        Join pro network
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <h2>Explore top-rated certified pros nearby</h2>
+    <div class="input">
+      <div class="inputsearch">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+          <path
+            d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+        </svg>
+        <input type="text" placeholder="what service do you need?" />
+      </div>
+      <div class="inputlocation">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+          <path
+            d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z" />
+        </svg>
+        <input type="text" placeholder="Zip code" />
+      </div>
+      <button class="search">search</button>
+    </div>
+    <div class="buttons">
+      <button type="close" class="btn btn-outline-light rounded-pill mt-1 me-1">
+        Electrician
+      </button>
+      <button type="button" class="btn btn-outline-light rounded-pill mt-1 me-1">
+        Handyperson</button><button type="button" class="btn btn-outline-light rounded-pill mt-1 me-1">
+        Plumbing
+      </button>
+      <button type="button" class="btn btn-outline-light rounded-pill mt-1 me-1">
+        Landscaping
+      </button>
+      <button type="button" class="btn btn-outline-light rounded-pill mt-1 me-1">
+        Roofing
+      </button>
+    </div>
+  </main>
+  <!-- زر تغيير الألوان الثابت -->
+  <div id="colorBtn">
+    CUSTOMIZE    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#000">
+      <path
+        d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm70-80h79l14-106q31-8 57.5-23.5T639-327l99 41 39-68-86-65q5-14 7-29.5t2-31.5q0-16-2-31.5t-7-29.5l86-65-39-68-99 42q-22-23-48.5-38.5T533-694l-13-106h-79l-14 106q-31 8-57.5 23.5T321-633l-99-41-39 68 86 64q-5 15-7 30t-2 32q0 16 2 31t7 30l-86 65 39 68 99-42q22 23 48.5 38.5T427-266l13 106Zm42-180q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Zm-2-140Z" />
+    </svg>
+    
+  </div>
+
+
+
+  
+  <div id="colorPanel">
+  <div class="custom">
+        <h3>Customize theme</h3>
+
+      <svg id="close" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+      fill="#1f1f1f">
+      <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+    </svg>
+  </div>
+    <div class="colors">
+      <span data-color="rgb(216 81 81)" style="background: rgb(216 81 81)"></span>
+      <span data-color="#3d7a81" style="background: #3d7a81"></span>
+      <span data-color="#ff9800" style="background: #ff9800"></span>
+      <span data-color="#4caf50" style="background: #4caf50"></span>
+      <span data-color="#673ab7" style="background: #673ab7"></span>
+    </div>
+  </div>
+
+  <script src="js.js">
+    
+  </script>
+</body>
+
+</html>
